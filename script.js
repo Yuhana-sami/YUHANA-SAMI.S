@@ -1,5 +1,5 @@
-// Prevent form submission (demo only)
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+// Simple form submission alert
+document.getElementById("contact-form").addEventListener("submit", function(e) {
   e.preventDefault();
-  alert("Thank you! Your message has been sent.");
+  alert("Thank you! Your details have been received.");
 });
